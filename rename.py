@@ -1,4 +1,3 @@
-import time
 import os
 from os import error
 target="./"
@@ -13,4 +12,3 @@ for dir in allDirs:
                 os.rename(target+dir+"/"+txt,target+dir+"/"+txt+".txt")
     except:
         pass
-time.sleep(5)
